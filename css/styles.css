@@ -151,15 +151,9 @@ nav {
   body {
     width: 98%;
   }
-  nav {
-    padding: 1rem;
-  }
   .nav_desktop {
-    padding: 0.2rem;
+    padding: 0.2rem 0;
   }
-}
-
-@media (max-width: 320px) {
   nav {
     padding: 1.5rem 0;
   }
