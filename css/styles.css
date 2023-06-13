@@ -14,7 +14,7 @@ li {
 
 body {
   width: 90%;
-  margin: 0 auto;
+  margin: auto;
 }
 
 .logo_nav span,
@@ -163,8 +163,11 @@ nav {
   nav {
     padding: 1.5rem 0;
   }
+  .logo_nav span {
+    font-size: 0.7rem;
+  }
   .links_tab_mobile {
-    gap: 1.2rem;
+    gap: 1rem;
   }
 }
 
@@ -191,6 +194,8 @@ nav {
 
 .main_icon_redes {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 20px;
   color: #464646;
   font-weight: 700;
@@ -253,11 +258,8 @@ nav {
     gap: 24px;
     max-width: 100%;
   }
-  .main_icon_redes i {
-    padding: 0;
-  }
-  .main_icon_redes span {
-    margin-right: 5px;
+  .main_icon_redes {
+    text-align: center;
   }
   .main_img {
     justify-content: flex-start;
