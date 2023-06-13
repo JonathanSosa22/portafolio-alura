@@ -163,11 +163,13 @@ nav {
   nav {
     padding: 1.5rem 0;
   }
-  .logo_nav span {
-    font-size: 0.7rem;
+  .logo_nav span,
+  .links_home p {
+    font-size: 0.8rem;
   }
   .links_tab_mobile {
-    gap: 1rem;
+    padding: 1rem 0;
+    gap: 0.6rem;
   }
 }
 
