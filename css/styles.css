@@ -154,6 +154,9 @@ nav {
   .nav_desktop {
     padding: 0.2rem 0;
   }
+  .nav_tab_mobile {
+    padding: 2.4rem 0;
+  }
   nav {
     padding: 1.5rem 0;
   }
@@ -162,8 +165,7 @@ nav {
     font-size: 1rem;
   }
   .links_tab_mobile {
-    padding: 1rem 0;
-    gap: 1rem;
+    gap: 1.1rem;
   }
 }
 
